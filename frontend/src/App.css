@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+li {
+  list-style: none;
+}
+
+/* Favourite delete button */
+button.delFav {
+  margin-left: 1vw;
+  border: none;
+  background: none;
+  color: red;
+}
+

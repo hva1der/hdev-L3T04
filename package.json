@@ -1,0 +1,23 @@
+{
+  "name": "itunes_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "concurrently \"npm install && nodemon app.js\" \"npm install --prefix frontend && npm start --prefix frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "react-test-renderer": "^18.2.0"
+  }
+}
